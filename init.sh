@@ -8,7 +8,7 @@ if [ ! -d "$1" ]; then
 def task_2(values):
     return
 
-input = open('debug.txt', 'r')
+input = open('input.txt', 'r')
 values = input.readlines()
 print(task_1(values))
 print(task_2(values))
