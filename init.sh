@@ -1,7 +1,7 @@
 #!/bin/sh
 if [ ! -d "$1" ]; then
     mkdir $1
-    touch $1/input.txt $1/puzzle.py
+    touch $1/input.txt $1/puzzle.py $1/debug.txt
     echo "def task_1(values):
     return
 
